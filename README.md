@@ -119,7 +119,8 @@ Run correct program for station:
 + cutting room          - main02.py
 + sanding room          - main03.py
 + finishing room        - main04.py
-+ order/package room    - main05.py
++ package room          - main05.py
++ entering order        - order.py
 
 ## HARDWARE REQUIREMENTS
 

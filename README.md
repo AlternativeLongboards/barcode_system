@@ -76,7 +76,7 @@ Working station for sending orders collects data like:
 
 ``` gitclone https://github.com/AlternativeLongboards/barcode_system ```
 
-Upload Arduino program - I suggest to use PlatformIO core.
+Upload Arduino program - recommended is to use PlatformIO core.
 
 Run correct program for station: 
 + preparing room        - main00.py
@@ -106,6 +106,7 @@ Run correct program for station:
 + PyMongo module (Python)
 + Kivy module (Python)
 + PySerial module (Python)
++ PlatfformIO - https://platformio.org/
 + some time to configure
 
 

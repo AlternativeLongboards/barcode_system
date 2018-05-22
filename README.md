@@ -13,7 +13,9 @@ It has a lot of advantages, such as:
 
 ### **"How does it work in basic?"**
 
-During the first step of production each board gets its unique number (board_ID) represented by barcode. On every production step there is a standalone working station (barcode scanner is connected to Arduino with a USB shield with a Raspberry Pi) thanks to which the Company can scan barcodes and all metadata related to board_ID that are stored in a database (MongoDB). Collected data are processed and shown on Node-RED dashboard.
+During the first step of production each board gets its unique number (board_ID) represented by barcode. On every production step there is a standalone working station (barcode scanner is connected to Arduino with a USB shield with a Raspberry Pi) thanks to which the Company can scan barcodes and all metadata related to board_ID that are stored in a database (MongoDB). Collected data are processed and shown on NodeRED dashboard.
+
+**MongoDB and NodeRED are running on standalone local server**
 
 ### **"How does the working station look like"**
 
@@ -41,11 +43,11 @@ Every working station is provided with wireless barcode scanner which is connect
 
 ### **"How does barcode system network work?"**
 
-Working station gets static IP address in local wireless network. Each station connects with the MongoDB server (also with static IP). There is also an option of sending message by each working station. All this information is displaed using Node-RED Dashboard (running on server).
+Working station gets static IP address in local wireless network. Each station connects with the MongoDB server (also with static IP). There is also an option of sending message by each working station. All this information is displaed using NodeRED Dashboard (running on server).
 
 ![im2](https://github.com/AlternativeLongboards/barcode_system/blob/master/DOCS/barcode_working_station_network.jpg)
 
-### **"How does Node RED and Node RED dashboard work in basic"**
+### **"How does NodeRED and NodeRED dashboard work in basic"**
 
 Using Node RED server display information about collected barcodes such as:
 
@@ -107,6 +109,8 @@ Working station for sending orders collects data like:
 
 ``` gitclone https://github.com/AlternativeLongboards/barcode_system ```
 
+**Configure and run server with MongoDB and Node-RED environment.** its recommend to grand acess only from working station static IP database, please close all extra ports and filter IP's !.
+
 Upload Arduino program - recommended is to use PlatformIO core.
 
 Run correct program for station: 
@@ -119,6 +123,8 @@ Run correct program for station:
 
 ## HARDWARE REQUIREMENTS
 
+For one working station:
+
 + Rasbperry Pi (recommended). It can be used clone but it may cause some trouble with PySerial (not recommended for OrangePi family)
 + Arduino UNO (recommended). There can be used clone ( it was tested and did not cause  any problems),
 + standard ISO wireless barcode scanner
@@ -129,6 +135,7 @@ Run correct program for station:
 + standard computer 12V 120x120 ventilator
 + standard wireless keyboard/mouse setup with monitor
 
+Standalone server
 
 ## SOFTWARE REQUIREMENTS
 
@@ -139,6 +146,8 @@ Run correct program for station:
 + PySerial module (Python)
 + PlatfformIO - https://platformio.org/
 + some time to configure
++ standalone server with MongoDB and NodeRED
++ MondoDB node for NodeRED
 
 
 

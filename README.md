@@ -49,7 +49,7 @@ Working station gets static IP address in local wireless network. Each station c
 
 ### **"How does NodeRED and NodeRED dashboard work in basic"**
 
-Using Node RED server display information about collected barcodes such as:
+Using NodeRED server display information about collected barcodes such as:
 
 + how many boards are on each production step (for each model)
 + how many boards are ready to ship (for each model)
@@ -65,7 +65,7 @@ about acitivity on working station:
 + last scanned data
 + flow chart from past 2 hours of activity
 
-Using Node RED You can send message on each work station
+Using NodeRED You can send message on each work station
 
 ![im4](https://github.com/AlternativeLongboards/barcode_system/blob/master/DOCS/barcode_node_red_stations.jpg)
 

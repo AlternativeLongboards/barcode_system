@@ -61,10 +61,13 @@ and about acitivity on working station:
 + last scanned data
 + flow chart from past 2 hours of activity
 
-Using Node RED You can send message on each work station.
+Using Node RED You can send message on each work station
 
 ![im4](https://github.com/AlternativeLongboards/barcode_system/blob/master/DOCS/barcode_node_red_stations.jpg)
 
+or see board ID history
+
+![im5](https://github.com/AlternativeLongboards/barcode_system/blob/master/DOCS/barcode_node_red_production_history.jpg)
 
 ### **"What kind of information is collected on working station?"**
 

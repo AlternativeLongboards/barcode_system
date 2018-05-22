@@ -24,7 +24,8 @@ Here is a general station overview:
 
 + 1 MONITOR         - standard 15" LCD monitor
 + 2 CASE            - standard electric metal case 300x300x200 IP 66 holding **Arduino with USB shield, Raspbery Pi**, power supplies,                           ventilation, wifi antennas.
-+ 3 FRAME           - welded construction is created from 30x30 metal profiles; technical drawning is available
++ 3 FRAME           - welded construction is created from 30x30 metal profiles; technical drawning is available 
+                      barcode_working_station_frame_dimensions.PDF
 + 4 KEYBOARD/mouse  - standard wireless keyboard/mouse setup.
 
 ### **"How many working stations are in the Company?"**

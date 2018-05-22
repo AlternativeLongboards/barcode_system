@@ -45,6 +45,23 @@ Working station gets static IP address in local wireless network. Each station c
 
 ![im2](https://github.com/AlternativeLongboards/barcode_system/blob/master/DOCS/barcode_working_station_network.jpg)
 
+### **"How does Node RED and Node RED dashboard work in basic"**
+
+Using Node RED server display information about collected barcodes such as:
+
++ how many boards are on each production step (for each model)
++ how many boards are ready to ship (for each model)
++ how many orders are made (for each model)
+
+and about acitivity on working station:
+
++ actual worker active on workstation
++ last scanned data
++ flow chart from past 2 hours of activity
+
+Using Node RED You can send message on each work station.
+
+
 Node RED Flow overview:
 
 ![im3](https://github.com/AlternativeLongboards/barcode_system/blob/master/DOCS/node_red_barcode_station.jpg)

@@ -53,6 +53,8 @@ Using Node RED server display information about collected barcodes such as:
 + how many boards are ready to ship (for each model)
 + how many orders are made (for each model)
 
+![im3](https://github.com/AlternativeLongboards/barcode_system/blob/master/DOCS/barcode_node_red_production.jpg)
+
 and about acitivity on working station:
 
 + actual worker active on workstation
@@ -61,10 +63,7 @@ and about acitivity on working station:
 
 Using Node RED You can send message on each work station.
 
-
-Node RED Flow overview:
-
-![im3](https://github.com/AlternativeLongboards/barcode_system/blob/master/DOCS/node_red_barcode_station.jpg)
+![im4](https://github.com/AlternativeLongboards/barcode_system/blob/master/DOCS/barcode_node_red_stations.jpg)
 
 
 ### **"What kind of information is collected on working station?"**
